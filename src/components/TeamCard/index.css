@@ -1,0 +1,60 @@
+.team-list-container {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 250px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list-container {
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 360px;
+    flex-grow: 1;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.img-style {
+  width: 90px;
+  height: 90px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-style {
+    width: 130px;
+    height: 130px;
+    margin-right: 15px;
+  }
+}
+
+.ipl-team-style {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-team-style {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+}

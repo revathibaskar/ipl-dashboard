@@ -1,0 +1,38 @@
+.recent-list-con {
+  background-color: #1e293b;
+  border-radius: 6px;
+  width: 250px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-list-con {
+    width: 350px;
+  }
+}
+
+.com-tm-logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .com-tm-logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.lost-style{
+  color:   #e31a1a;
+}
+
+.won-style{
+  color:#18ed66;
+}

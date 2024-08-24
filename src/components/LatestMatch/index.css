@@ -1,0 +1,64 @@
+.latest-bg-container {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.img-con-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px){
+  .img-con-container{
+    width:65%;
+  }
+}
+
+
+.opp-img-style {
+  width: 100px;
+  margin-left: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .opp-img-style {
+    width: 200px;
+    margin-left: 25px;
+  }
+}
+
+.hariz-line {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .hariz-line {
+    display: none;
+  }
+}
+
+.innings-container {
+  color: #ffffff;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .innings-container {
+    color: #ffffff;
+    text-align: right;
+    width:35%;
+  }
+}

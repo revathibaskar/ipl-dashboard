@@ -1,0 +1,23 @@
+.main-bg-container {
+  background-image: linear-gradient(#d91c1f, #da237b);
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.latest-style {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.ul-recent-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
